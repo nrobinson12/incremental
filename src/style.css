@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100vh;
+    background: rgb(230, 230, 230);
+}
+
+body {
+    text-align: center;
+}
+
+.container {
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(2, 1fr);
+}
